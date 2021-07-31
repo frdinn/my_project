@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="836dp"
+        android:layout_height="923dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2020_06_10_at_13_35_29" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text=" Motif Kain"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/NextMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="50dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/whatsapp_image_2020_06_08_at_15_46_01" />
+
+    <ImageButton
+        android:id="@+id/gambar2"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/whatsapp_image_2020_06_04_at_10_19_11__1_" />
+
+    <ImageButton
+        android:id="@+id/gambar3"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambar1"
+        app:srcCompat="@drawable/whatsapp_image_2020_06_04_at_10_19_11" />
+
+    <ImageButton
+        android:id="@+id/gambar4"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#00000000"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambar2"
+        app:srcCompat="@drawable/whatsapp_image_2020_06_04_at_10_19_12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

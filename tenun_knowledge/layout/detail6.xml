@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="611dp"
+        android:layout_height="868dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2020_06_10_at_13_35_30" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="359dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="50dp"
+        android:text="Corak Rusa pada tenun ikat Sumba, merupakan lambang kaum bangsawan. Dahulu hanya kalangan bangsawan saja yang diperbolehkan berburu rusa, sehingga corak Rusa pada mulanya hanya terdapat pada kain-kain milik bangsawan"
+        android:textColor="#F4F4F4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zoombutton6" />
+
+    <ImageButton
+        android:id="@+id/zoombutton6"
+        android:layout_width="205dp"
+        android:layout_height="285dp"
+        android:layout_marginTop="50dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2020_06_10_at_14_26_13" />
+
+    <Button
+        android:id="@+id/back6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#68FFFFFF"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
